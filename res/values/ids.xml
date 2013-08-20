@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="administration_header">false</item>
+    <item type="id" name="khan_button">false</item>
+    <item type="id" name="searchbox">false</item>
+    <item type="id" name="khan">false</item>
+    <item type="id" name="p1_button">false</item>
+    <item type="id" name="zack_button">false</item>
+    <item type="id" name="p2_button">false</item>
+    <item type="id" name="place1">false</item>
+    <item type="id" name="zack">false</item>
+    <item type="id" name="searchicon">false</item>
+    <item type="id" name="place2">false</item>
+    <item type="id" name="tutoringheader">false</item>
+    <item type="id" name="header_profiles">false</item>
+    <item type="id" name="button_chem">false</item>
+    <item type="id" name="button_phys">false</item>
+    <item type="id" name="button_calc">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView6">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="textView7">false</item>
+    <item type="id" name="textView8">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="button_contact">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="Preferences">false</item>
+    <item type="id" name="personalInfo">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

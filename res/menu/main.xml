@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:enabled="true" android:id="@id/Preferences" android:visible="true">
+        <item android:icon="@android:drawable/ic_dialog_info" android:enabled="true" android:id="@id/personalInfo" android:visible="true" android:title="Personal Information"/>
+        <item android:id="@+id/addContent" android:title="Add Content" android:icon="@android:drawable/ic_menu_preferences"></item>
+    </group>
+</menu>

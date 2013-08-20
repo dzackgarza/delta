@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff1b1b1b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@id/administration_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Administration Mode"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@id/khan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/searchbox"
+        android:layout_alignTop="@id/khan"
+        android:onClick="launchKhan"
+        android:text="Khan Academy" />
+
+    <Button
+        android:id="@id/p1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/zack_button"
+        android:layout_alignRight="@id/zack_button"
+        android:layout_below="@id/zack_button"
+        android:text="P1 Academy" />
+
+    <Button
+        android:id="@id/zack_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/khan_button"
+        android:layout_alignRight="@id/khan_button"
+        android:layout_below="@id/khan_button"
+        android:text="Zack Academy" />
+
+    <Button
+        android:id="@id/p2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/p1_button"
+        android:layout_alignRight="@id/p1_button"
+        android:layout_below="@id/p1_button"
+        android:text="P2 Academy" />
+
+    <ImageButton
+        android:id="@id/place1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/p2_button"
+        android:layout_alignLeft="@id/zack"
+        android:background="#ff1b1b1b"
+        android:onClick="launchKhan"
+        android:src="@drawable/icon_p1" />
+
+    <AutoCompleteTextView
+        android:id="@id/searchbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/administration_header"
+        android:layout_marginTop="27.0dip"
+        android:ems="10"
+        android:text="Search Tutors" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <ImageButton
+        android:id="@id/searchicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/searchbox"
+        android:layout_alignLeft="@id/khan"
+        android:layout_alignTop="@id/searchbox"
+        android:src="@android:drawable/ic_menu_search" />
+
+    <ImageButton
+        android:id="@id/zack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/place1"
+        android:layout_alignLeft="@id/khan"
+        android:background="#ff1b1b1b"
+        android:onClick="launchKhan"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@id/place2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/place1"
+        android:layout_alignTop="@id/p2_button"
+        android:background="#ff1b1b1b"
+        android:onClick="launchKhan"
+        android:src="@drawable/icon_p2" />
+
+    <ImageButton
+        android:id="@id/khan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tutoringheader"
+        android:layout_toRightOf="@id/searchbox"
+        android:background="#ff1b1b1b"
+        android:src="@drawable/ic_khan" />
+
+    <TextView
+        android:id="@id/header_profiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/khan"
+        android:layout_alignLeft="@id/khan"
+        android:text="Profiles"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@id/tutoringheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/khan_button"
+        android:layout_below="@id/searchicon"
+        android:layout_marginTop="45.0dip"
+        android:text="Tutoring Companies"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

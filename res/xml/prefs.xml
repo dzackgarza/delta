@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Name" android:key="name" />
+    <EditTextPreference android:title="Company" android:key="company" />
+    <EditTextPreference android:title="E-mail" android:key="email" />
+    <EditTextPreference android:title="Website" android:key="website" />
+</PreferenceScreen>
